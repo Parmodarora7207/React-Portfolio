@@ -1,0 +1,873 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.skills{
+    font-size: 50px;
+    color: #2857a4;
+    margin-left: 44vw;
+    margin-top: 10vh;
+}
+#contact-form-container h3 {
+  font-size: 1rem;
+  margin-left: 18rem;
+  margin-bottom: 2rem;
+}
+
+#contact-form {
+  margin-left: 20%;
+}
+
+.contactdiv {
+  background-color: #0abcf9;
+  background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+  color: white;
+  padding-bottom: 40px;
+}
+
+input[type=text],
+select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: -50px;
+}
+
+textarea[type=message],
+select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 20vh;
+  margin-left: -50px;
+}
+
+#contact-form button[type="submit"] {
+  background: transparent;
+  font-size: 0.95rem;
+  border: solid 2px white;
+  margin-top: 5%;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.046875em;
+  line-height: 1;
+  padding: 0.8em 0.8em 0.78em;
+  text-transform: uppercase;
+}
+
+#my-details-container {
+  width: 35%;
+  margin-left: -15%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timeline-divider {
+  position: absolute;
+  width: 0;
+  left: 50%;
+  margin-top: 38vh;
+  border: 2px dashed #0096fa6b;
+  height: 50%;
+  color: #433E3F;
+}
+
+#timeline-divider1 {
+  position: absolute;
+  width: 0;
+  left: 50%;
+  margin-top: 15vh;
+  border: 2px dashed #0096fa6b;
+  height: 60%;
+  color: #433E3F;
+}
+
+.timeline-traveller {
+  position: sticky;
+  top: 135px;
+  z-index: 2;
+
+
+}
+
+div {
+  display: block;
+
+}
+
+.timeline-traveller #i {
+  transform: rotate(180deg);
+  margin-top: -35px;
+  display: block;
+  color: #2857a4;
+
+}
+
+;
+
+.horizontal-list-social {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.horizontal-list-social {
+  display: flex;
+  list-style: none;
+  margin-left: 20vw;
+}
+
+#images-div {
+  height: 80vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+}
+
+/* Portfolio section */
+#portfolio-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  margin-bottom: 25px;
+  justify-content: space-around;
+}
+
+#portfolio-image-container {
+  max-width: 300px;
+  overflow: hidden;
+  margin: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#portfolio-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolio-details {
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: transparent;
+  text-align: center;
+  padding: 10px;
+}
+
+#portfolio-image-container:hover {
+  box-shadow: 0 0 20px #74ADC8;
+  font-size: 1rem;
+}
+
+#portfolio-image-container:hover #portfolio-details {
+  background-color: #262626;
+  color: white;
+}
+
+.my-deatils-info-container {
+  margin-bottom: 20px;
+  color: #d9dcdd;
+  font-size: 1rem;
+}
+
+/* mediaquery */
+@media only screen and (max-width:320px) {
+  .li {
+    padding: 13px !important;
+    margin-left: -1.5vw !important;
+  }
+
+  #header {
+    background-size: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+
+  .nameheading {
+    margin-top: -10vh !important;
+  }
+
+  .abt {
+    height: 50vh !important;
+  }
+
+  .second {
+    font-size: 12px !important;
+    margin-top: 18vh !important;
+  }
+
+  .icon1 {
+    margin-left: -19vw !important;
+  }
+
+  .skilldiv {
+    height: 110vh !important;
+  }
+
+  #skills {
+    margin-top: -50vh;
+  }
+
+  .mySkills1 {
+    margin-top: 1vh !important;
+    margin-left: 1vw !important;
+  }
+
+  .mySkills2 {
+    margin-left: 34vw !important;
+  }
+
+  .mySkills3 {
+    margin-left: 67vw !important;
+  }
+
+  .mySkills4 {
+    margin-left: 1vw !important;
+    margin-top: 3vh !important;
+  }
+
+  .mySkills5 {
+    margin-left: 1vw !important;
+    margin-top: 3vh !important;
+  }
+
+  .mySkills6 {
+    margin-left: 34vw !important;
+    margin-top: -28vh !important;
+  }
+
+  .mySkills7 {
+    margin-left: 67vw !important;
+    margin-top: -13vh !important;
+  }
+
+  .mySkills8 {
+    margin-left: 67vw !important;
+    margin-top: 6vh !important;
+  }
+
+  .mySkills9 {
+    margin-left: 34vw !important;
+    margin-top: -15vh !important;
+  }
+
+  .mySkills10 {
+    margin-left: 35vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .work {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .workicon {
+    font-size: 1px !important;
+    margin-top: -15vh !important;
+    margin-left: -20vw !important;
+  }
+
+  .WorkExp {
+    font-size: 40px !important;
+    margin-top: -23vh !important;
+    margin-left: 30vw !important;
+  }
+
+  .Reactjs {
+    margin-left: -3vw !important;
+    margin-top: -2vh !important;
+    font-size: 25px !important;
+  }
+
+  .reactabt {
+    font-size: 12px !important;
+    margin-left: 0.8vw !important;
+    margin-top: 2vh !important;
+    height: 10vh !important;
+    width: 50vw !important;
+  }
+
+  #timeline-divider {
+    margin-left: 2vw !important;
+  }
+
+  .Airplane1 {
+    font-size: 30px !important;
+    margin-left: -2.5vw !important;
+  }
+
+  .Nodejs {
+    margin-top: -30.5vh !important;
+    margin-left: 53vw !important;
+  }
+
+  .Nodejsabt {
+    font-size: 12px !important;
+    text-align: left !important;
+    justify-content: left !important;
+    margin-left: 55vw !important;
+    width: 44.7vw !important;
+    margin-top: 1.5vh !important;
+  }
+
+  .Schoolicon {
+    margin-left: -20vw !important;
+    margin-top: -13vh !important;
+  }
+
+  .Education {
+    margin-top: -25vh !important;
+    margin-left: 19vw !important;
+  }
+
+  .Airplaneicon2 {
+    font-size: 30px !important;
+    margin-left: -2.5vw !important;
+  }
+
+  #timeline-divider1 {
+    margin-left: -1vw !important;
+    margin-top: 10vh !important;
+  }
+
+  .clg {
+    font-size: 20px !important;
+    width: 45vw !important;
+    margin-top: 1vh !important;
+    margin-left: 2vw !important;
+  }
+
+  .degree {
+    font-size: 20px !important;
+    margin-top: -2vh !important;
+  }
+
+  .passyr {
+    font-size: 20px !important;
+    margin-left: -37vw !important;
+  }
+
+  .twelve {
+    font-size: 20px !important;
+    margin-top: -97vh !important;
+    margin-left: 53vw !important;
+    width: 50vw !important;
+  }
+
+  .Twelvecls {
+    font-size: 20px !important;
+    width: 50vw !important;
+  }
+
+  .Two018 {
+    font-size: 20px !important;
+    margin-left: -80vw !important;
+    margin-top: 18vh !important;
+  }
+
+  .Scl {
+    font-size: 20px !important;
+    width: 50vw !important;
+    margin-left: 0.9vw !important;
+    margin-top: -62vh !important;
+  }
+
+  .matric {
+    font-size: 20px !important;
+  }
+
+  .two017 {
+    font-size: 20px !important;
+    margin-left: -132vw !important;
+    margin-top: -10vh !important;
+  }
+
+  .projectsdiv {
+    height: 520vh !important;
+    width: 100% !important;
+  }
+
+  .projIcon {
+    margin-top: -15vh !important;
+    margin-left: -25vw !important;
+  }
+
+  .Projects {
+    margin-top: -28vh !important;
+    margin-left: 40vw !important;
+  }
+
+  .contactdiv {
+    height: 150vh !important;
+  }
+
+  .Contacticon {
+    margin-left: -20vw !important;
+  }
+
+  .getintouch {
+    font-size: 20px !important;
+    margin-left: -10vw !important;
+  }
+
+  #input-name {
+    font-size: 10px !important;
+    width: 16vw !important;
+    margin-left: -23vw !important;
+  }
+
+  #input-email {
+    font-size: 10px !important;
+    width: 16vw !important;
+    margin-left: 1vw !important;
+  }
+
+  #input-message {
+    font-size: 10px !important;
+    width: 32vw !important;
+    margin-left: -23vw !important;
+  }
+
+  .sub-btn {
+    margin-left: -23vw !important;
+  }
+
+  .address {
+    font-size: 20px !important;
+    margin-left: -5vw !important;
+  }
+
+  .Icon1 {
+    margin-left: -23vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .kalsana {
+    margin-top: -10vh !important;
+  }
+
+  .Icon2 {
+    margin-left: -23vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .mob {
+    margin-top: -10vh !important;
+  }
+
+  .Icon3 {
+    margin-left: -23vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .gmail {
+    margin-top: -10vh !important;
+    margin-left: 9vw !important;
+  }
+
+  .Social {
+    font-size: 20px !important;
+    margin-left: 15vw !important;
+  }
+
+  .linkedin {
+    margin-left: -10vw !important;
+  }
+
+  .facebook {
+    margin-left: -25vw !important;
+    margin-top: 15vh !important;
+  }
+
+  .instagram {
+    margin-left: -8vw !important;
+    margin-top: 15vh !important;
+  }
+}
+
+/* 320 pxx */
+@media only screen and (max-width:320px) {
+  #header {
+    background-size: cover !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+.first{
+width: 1vw !important;
+margin-left: 60vw !important;
+}
+  .li {
+    padding: 1px !important;
+    /* margin-left: -1.5vw !important; */
+    width: 100vw !important;
+  }
+
+
+  .nameheading {
+    margin-top: 10vh !important;
+  }
+
+  .myimg {
+    height: 50vh !important;
+    width: 40vw !important;
+    border-radius: 200px !important;
+    margin-left: 70vw !important;
+  }
+
+  .abt {
+    height: 35vh !important;
+    width: 188vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .second {
+    font-size: 15px !important;
+    margin-top: 18vh !important;
+    margin-left: 15vw !important;
+  }
+
+  .skilldiv {
+    height: 110vh !important;
+    width: 188vw !important;
+    margin-top: 37vh !important;
+  }
+
+  .icon1 {
+    margin-left: 6vw !important;
+    margin-top: -5vh !important;
+  }
+
+  #skills {
+    margin-top: -18vh !important;
+    margin-left: 5vw !important;
+  }
+
+  .mySkills1 {
+    margin-top: 1vh !important;
+    margin-left: 2vw !important;
+  }
+
+  .mySkills2 {
+    margin-left: 65vw !important;
+  }
+
+  .mySkills3 {
+    margin-left: 128vw !important;
+  }
+
+  .mySkills4 {
+    margin-left: 1vw !important;
+    margin-top: 3vh !important;
+  }
+
+  .mySkills5 {
+    margin-left: 1vw !important;
+    margin-top: 3vh !important;
+  }
+
+  .mySkills6 {
+    margin-left: 64vw !important;
+    margin-top: -28vh !important;
+  }
+
+  .mySkills7 {
+    margin-left: 128vw !important;
+    margin-top: -13vh !important;
+  }
+
+  .mySkills8 {
+    margin-left: 128vw !important;
+    margin-top: 4vh !important;
+  }
+
+  .mySkills9 {
+    margin-left: 64vw !important;
+    margin-top: -12vh !important;
+  }
+
+  .mySkills10 {
+    margin-left: 64vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .Work {
+    height: 200vh !important;
+    width: 188vw !important;
+  }
+
+  .workicon {
+    font-size: 1px !important;
+    margin-top: -10vh !important;
+    margin-left: 5vw !important;
+  }
+
+  .WorkExp {
+    font-size: 40px !important;
+    margin-top: -19vh !important;
+    margin-left: 50vw !important;
+  }
+
+  .Reactjs {
+    margin-left: -3vw !important;
+    margin-top: -2vh !important;
+    font-size: 25px !important;
+    height: 20vh !important;
+    width: 100vw !important;
+  }
+
+  .reactabt {
+    font-size: 12px !important;
+    margin-left: 5vw !important;
+    margin-top: 2vh !important;
+    height: 10vh !important;
+    width: 90vw !important;
+  }
+
+  #timeline-divider {
+    margin-left: 50vw !important;
+    height: 130vh !important;
+    margin-top: 50vh !important;
+  }
+
+  .Airplane1 {
+    font-size: 30px !important;
+    margin-left: -4.5vw !important;
+  }
+
+  .Nodejs {
+    margin-top: 40vh !important;
+    margin-left: 100vw !important;
+  }
+
+  .Nodejsabt {
+    font-size: 12px !important;
+    text-align: left !important;
+    justify-content: left !important;
+    margin-left: 105vw !important;
+    height: 10vh !important;
+    width: 80vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .Schoolicon {
+    margin-left: -20vw !important;
+    margin-top: -13vh !important;
+  }
+.educationdiv{
+  height: 140vh !important;
+  width: 188vw !important;
+}
+.Schoolicon{
+  margin-left: 10vw !important;
+}
+  .Education {
+    margin-top: -25vh !important;
+    margin-left: 35vw !important;
+  }
+
+  .Airplaneicon2 {
+    font-size: 30px !important;
+    margin-left: -4.5vw !important;
+  }
+
+  #timeline-divider1 {
+    margin-left: 45vw !important;
+    margin-top: 10vh !important;
+    height: 90vh !important;
+  }
+
+  .clg {
+    font-size: 20px !important;
+    width: 90vw !important;
+    margin-top: 1vh !important;
+    margin-left: 1vw !important;
+  }
+
+  .degree {
+    font-size: 20px !important;
+    margin-top: -2vh !important;
+  }
+
+  .passyr {
+    font-size: 20px !important;
+    margin-left: -70vw !important;
+    margin-top: -8vh !important;
+  }
+
+  .twelve {
+    font-size: 20px !important;
+    margin-top: -57vh !important;
+    margin-left: 100vw !important;
+    width: 80vw !important;
+  }
+
+  .Twelvecls {
+    font-size: 20px !important;
+    width: 90vw !important;
+    margin-left: -1vw !important;
+  }
+
+  .Two018 {
+    font-size: 20px !important;
+    margin-left: -150vw !important;
+    margin-top: 18vh !important;
+  }
+
+  .Scl {
+    font-size: 20px !important;
+    width: 90vw !important;
+    margin-left: 2vw !important;
+    margin-top: -62vh !important;
+  }
+
+  .matric {
+    font-size: 20px !important;
+  }
+
+  .two017 {
+    font-size: 20px !important;
+    margin-left: -247vw !important;
+    margin-top: -10vh !important;
+  }
+
+  .projectsdiv {
+    height: 530vh !important;
+    width: 188vw !important;
+  }
+
+  .projIcon {
+    margin-top: -15vh !important;
+    margin-left: 10vw !important;
+  }
+
+  .Projects {
+    margin-top: -28vh !important;
+    margin-left: 80vw !important;
+  }
+
+  .contactdiv {
+    height: 150vh !important;
+    width: 188vw !important;
+  }
+
+  .Contacticon {
+    margin-left: 20vw !important;
+  }
+.contact-name{
+  margin-left: 40vw !important;
+}
+  .getintouch {
+    font-size: 20px !important;
+    margin-left: -30vw !important;
+  }
+
+  #input-name {
+    font-size: 10px !important;
+    width: 30vw !important;
+    margin-left: -50vw !important;
+  }
+
+  #input-email {
+    font-size: 10px !important;
+    width: 30vw !important;
+    margin-left: 1vw !important;
+  }
+
+  #input-message {
+    font-size: 10px !important;
+    width: 59vw !important;
+    margin-left: -50vw !important;
+  }
+
+  .sub-btn {
+    margin-left: -49vw !important;
+  }
+
+  .address {
+    font-size: 20px !important;
+    margin-left: -9vw !important;
+  }
+
+  .Icon1 {
+    margin-left: -48vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .kalsana {
+    margin-top: -10vh !important;
+    margin-left: -2vw !important;
+  }
+
+  .Icon2 {
+    margin-left: -48vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .mob {
+    margin-top: -10vh !important;
+  }
+
+  .Icon3 {
+    margin-left: -47vw !important;
+    margin-top: 5vh !important;
+  }
+
+  .gmail {
+    margin-top: -10vh !important;
+    margin-left: 16vw !important;
+  }
+
+  .Social {
+    font-size: 20px !important;
+    margin-left: 19vw !important;
+    width: 60vw !important;
+  }
+
+  .linkedin {
+    margin-left: -10vw !important;
+  }
+
+  .facebook {
+    margin-left: 1vw !important;
+    margin-top: -0.5vh !important;
+  }
+
+  .instagram {
+    margin-left: 1vw !important;
+    margin-top: -0.5vh !important;
+  }
+  .footer{
+    width: 188vw !important;
+  }
+}
+.first .li:hover{
+text-decoration: underline;
+color:red;
+transition: 0.5s ;
+}
